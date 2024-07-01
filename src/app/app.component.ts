@@ -17,6 +17,29 @@ import { AsyncPipe, NgFor, NgIf, NgClass } from '@angular/common';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
+
+  popularCategories = [
+    'Alcohol Delivery', 'Back To School Delivery', 'Beauty Stores', 'Beauty Supply',
+    'Catering Near Me', 'Convenience Stores Canada', 'Dashmart Near Me', 'Deck The Doorstep',
+    'Drugstores Canada', 'Flower Delivery', 'Grocery Delivery Canada', 'Halloween',
+    'Hsa Bank', 'Hsa Fsa Store', 'Large Group Orders', 'Medicine Delivery',
+    'Mothers Day', 'Pet Store Near Me', 'Retail Stores Near Me', 'Seasonal Holidays',
+    'Snap Ebt', 'Valentines Day'
+  ];
+
+  getToKnowUs = [
+    'About Us', 'Careers', 'Investors', 'Company Blog', 'Engineering Blog',
+    'Merchant Blog', 'Gift Cards', 'Package Pickup', 'Promotions', 'Dasher Central',
+    'LinkedIn', 'Glassdoor', 'Accessibility', 'Newsroom'
+  ];
+
+  letUsHelpYou = ['Account Details', 'Order History', 'Help'];
+
+  doingBusiness = [
+    'Become a Dasher', 'List Your Business', 'Get Dashers for Deliveries',
+    'Get DoorDash for Business'
+  ];
+
   title = 'landingpage';
   isDarkMode = false;
   faSun = faSun;
