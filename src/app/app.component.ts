@@ -4,11 +4,13 @@ import { initFlowbite } from 'flowbite';
 import { faSun, faMoon, faChartLine, faBullseye, faMobileAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AsyncPipe, NgFor, NgIf, NgClass } from '@angular/common';
+// import { ScullyLibModule } from '@scullyio/ng-lib';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet,
+    // ScullyLibModule,
     FontAwesomeModule,
     NgIf,
     AsyncPipe,

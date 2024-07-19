@@ -1,0 +1,11 @@
+identifier: l9y4rapft17dsc80
+appPort: 1864
+staticPort: 1668
+reloadPort: 2667
+hostName: localhost
+projectName: landingpage
+homeFolder: /Users/adwaitabhyankar/AngularProjects/landing-page/landingpage
+distFolder: ./dist/landingpage/browser
+outDir: /Users/adwaitabhyankar/AngularProjects/landing-page/landingpage/dist/static
+handle404: ''
+allowErrorCollect: false
