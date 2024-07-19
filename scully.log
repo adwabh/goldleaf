@@ -58,3 +58,8 @@ Check the routes in your app, rebuild and retry.
 When there are extraRoutes in your config, we will still try to render those.
 
 
+Folder "./scully" doesn't seem to contain custom plugins
+----------------------------------Using stored unhandled routes!.   To discover new routes in the angular app use "npx scully --scanRoutes"----------------------------------
+
+
+
