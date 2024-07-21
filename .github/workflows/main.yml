@@ -3,7 +3,7 @@ name: Scully Publish
 on:
   push:
     branches:
-      - main
+      - scully
 
 jobs:
   build:
@@ -13,3 +13,5 @@ jobs:
       - uses: cmgriffing/scully-gh-pages-action@v10
         with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
+          deploy-branch: main
+
